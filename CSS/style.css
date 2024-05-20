@@ -177,3 +177,11 @@ section .popup-box form .button .cancel:hover {
 section .popup-box form .button .send:hover {
     background-color: #104cf1e5;
 }
+
+/* media query */
+@media screen and (max-width: 400px) {
+    section .popup-box {
+        background-color: red;
+        margin: 0 20px;
+    }
+}
