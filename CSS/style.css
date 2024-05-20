@@ -181,7 +181,6 @@ section .popup-box form .button .send:hover {
 /* media query */
 @media screen and (max-width: 400px) {
     section .popup-box {
-        background-color: red;
         margin: 0 20px;
     }
 }
