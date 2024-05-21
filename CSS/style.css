@@ -26,12 +26,12 @@ section.show .profile {
     display: none;
 }
 section .profile .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 50%;
     background: #4070f4;
-    padding: 3px;
-    margin-bottom: 10px; 
+    padding: 0.1875rem;
+    margin-bottom: 0.625rem; 
 }
 section .profile .profile-img img {
     width: 100%;
@@ -41,7 +41,7 @@ section .profile .profile-img img {
     border: 2px solid #fff; 
 }
 .profile .name, .profile .profession {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     color: #333;
 }
@@ -51,9 +51,9 @@ section .profile .profile-img img {
 }
 .profile .button {
     background-color: #4070f4;
-    padding: 12px 20px;
-    border-radius: 5px;
-    margin-top: 15px;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.3125rem;
+    margin-top: 0.9375rem;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -64,14 +64,14 @@ section .profile .profile-img img {
 }
 .profile .button i {
     color: #fff;
-    font-size: 18px;
-    margin-right: 5px;
+    font-size: 1.125rem;
+    margin-right: 0.3125rem;
 }
 .profile .button button {
     background: none;
     outline: none;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
     pointer-events: none;
 }
@@ -86,7 +86,7 @@ section .popup-outer {
     justify-content: center;
     opacity: 0;
     pointer-events: none; 
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.625rem 0.9375rem rgba(0, 0, 0, 0.1);
     transform: scale(1.2);
     transition: opacity 0.2s 0s ease-in-out, transform 0.2s 0s ease-in-out;
 }
@@ -97,17 +97,17 @@ section.show .popup-outer {
 }
 section .popup-box {
     background-color: #87CEFA;
-    border-radius: 12px;
-    padding: 30px;
-    max-width: 380px;
+    border-radius: 0.75rem;
+    padding: 1.875rem;
+    max-width: 23.75rem;
     width: 100%;
     position: relative;
 }
 section .popup-box .close {
-    font-size: 20px;
+    font-size: 1.25rem;
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 1rem;
+    right: 1rem;
     color: #4682B4;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -120,51 +120,51 @@ section .popup-box .profile-text {
     align-items: center;
 }
 section .popup-box img {
-    width: 60px;
-    height: 60px; 
+    width: 3.75rem;
+    height: 3.75rem; 
     /* object-fit: cover; */
     border-radius: 50%;
 }
 .profile-text .text {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 .profile-text .text .name {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
 }
 .profile-text .text .profession {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
 }
 section .popup-box textarea {
-    min-height: 150px;
+    min-height: 9.375rem;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     outline: none;
     border: none;
-    padding: 12px;
-    border-radius: 6px;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
     resize: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     background-color: #f3f3f3;
 }
 section .popup-box form .button {
     display: flex;
     justify-content: flex-end;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 section .popup-box form .button button {
-    margin-left: 8px;
+    margin-left: 0.5rem;
     background-color: #3d6ef5;
     outline: none;
     border: none;
-    padding: 6px 12px;
-    border-radius: 6px;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
     color: #fff;
-    font-size: 14px; 
+    font-size: 0.875rem; 
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -181,6 +181,6 @@ section .popup-box form .button .send:hover {
 /* media query */
 @media screen and (max-width: 400px) {
     section .popup-box {
-        margin: 0 20px;
+        margin: 0 1.25rem;
     }
 }
